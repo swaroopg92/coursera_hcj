@@ -14,7 +14,6 @@
     .col-sd-11,
     .col-sd-12 {
         float: left;
-        border: 2px solid black;
     }
 
     .col-sd-1 {
@@ -63,6 +62,5 @@
 
     .col-sd-12 {
         width: 100%;
-        background-color: gray;
     }
 }

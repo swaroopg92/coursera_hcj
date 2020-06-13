@@ -14,7 +14,6 @@
     .col-ld-11,
     .col-ld-12 {
         float: left;
-        border: 2px solid black;
     }
 
     .col-ld-1 {
@@ -31,7 +30,6 @@
 
     .col-ld-4 {
         width: 33.33%;
-        background-color: gray;
     }
 
     .col-ld-5 {
