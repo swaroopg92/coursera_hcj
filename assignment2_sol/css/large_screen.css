@@ -1,0 +1,68 @@
+/********** Large devices only **********/
+@media (min-width: 992px) {
+
+    .col-ld-1,
+    .col-ld-2,
+    .col-ld-3,
+    .col-ld-4,
+    .col-ld-5,
+    .col-ld-6,
+    .col-ld-7,
+    .col-ld-8,
+    .col-ld-9,
+    .col-ld-10,
+    .col-ld-11,
+    .col-ld-12 {
+        float: left;
+        border: 2px solid black;
+    }
+
+    .col-ld-1 {
+        width: 8.33%;
+    }
+
+    .col-ld-2 {
+        width: 16.66%;
+    }
+
+    .col-ld-3 {
+        width: 25%;
+    }
+
+    .col-ld-4 {
+        width: 33.33%;
+        background-color: gray;
+    }
+
+    .col-ld-5 {
+        width: 41.66%;
+    }
+
+    .col-ld-6 {
+        width: 50%;
+    }
+
+    .col-ld-7 {
+        width: 58.33%;
+    }
+
+    .col-ld-8 {
+        width: 66.66%;
+    }
+
+    .col-ld-9 {
+        width: 74.99%;
+    }
+
+    .col-ld-10 {
+        width: 83.33%;
+    }
+
+    .col-ld-11 {
+        width: 91.66%;
+    }
+
+    .col-ld-12 {
+        width: 100%;
+    }
+}

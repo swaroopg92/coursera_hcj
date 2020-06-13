@@ -1,0 +1,52 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 30px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/* Simple Responsive Framework. */
+.row {
+    width: 100%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    width: 25%;
+    border: 2px solid black;
+    float: right;
+    margin-right: -2px;
+    margin-top: -2px;
+}
+
+.first {
+
+    background-color: yellow;
+}
+
+.second {
+
+    background-color: orange;
+}
+
+.third {
+
+    background-color: #add8e6;
+}
+
+.p2 {
+    clear: both;
+    text-align: left;
+    padding: 10px;
+}
