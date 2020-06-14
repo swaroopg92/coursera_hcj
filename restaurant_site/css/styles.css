@@ -157,8 +157,31 @@ body {
 
 /* END HOME PAGE */
 
+/********** Extra large devices Only :-) (e.g., more than 15" screen) **********/
+@media (min-width: 1497px) {
+
+    /* Header */
+    #logo-img {
+        background: url('../images/tree_small.png') no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
+
+    /* End Header */
+
+    /* Home Page */
+    .container .jumbotron {
+        background: url('../images/jumbotron_1200.jpg') no-repeat;
+        height: 675px;
+    }
+
+    /* End Home Page */
+}
+
+
 /********** Large devices only **********/
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1496px) {
 
     /* Header */
     .navbar-brand h1 {
@@ -295,7 +318,7 @@ body {
 
 }
 
-/*/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
 
     /* Header */
@@ -314,5 +337,3 @@ body {
         margin: 0 auto 15px;
     }
 }
-
-*/
