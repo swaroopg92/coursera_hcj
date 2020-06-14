@@ -164,6 +164,7 @@ body {
 #menu-tile:hover,
 #specials-tile:hover,
 #map-tile:hover {
+    -moz-box-shadow: 0 0 5px 5px #cccccc;
     -webkit-box-shadow: 0 0 5px 5px #cccccc;
     box-shadow: 0 0 5px 5px #cccccc;
     /* h offset v offset blur spread color */
@@ -195,6 +196,39 @@ body {
 }
 
 /* END HOME PAGE */
+
+/* MENU CATEGORIES PAGE */
+.category-tile {
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+}
+
+.category-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+
+.category-tile:hover {
+    box-shadow: 0 0 5px 5px #cccccc;
+}
+
+#menu-categories-title+div {
+    margin-bottom: 50px;
+}
+
+/* END MENU CATEGORIES PAGE */
 
 /********** Extra large devices Only :-) (e.g., more than 15" screen) **********/
 @media (min-width: 1497px) {
@@ -391,5 +425,14 @@ body {
     #specials-tile {
         width: 280px;
         margin: 0 auto 15px;
+    }
+
+    .col-xxs-12 {
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: left;
+        width: 100%;
     }
 }
